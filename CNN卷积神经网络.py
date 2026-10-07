@@ -66,7 +66,7 @@ model.fit(X_train,
         # 使用重塑的 x_train  # use reshaped x_train
         y_train_new,
         # 使用重塑的 y_train  # use reshaped y_train
-        epochs=5,
+        epochs=25,
         batch_size= 10000,
         # use a bigger batch size since we have big training set here
         # 使用更大的 batch size 因为我们这里有很大的训练集
